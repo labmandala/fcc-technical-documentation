@@ -18,12 +18,37 @@ body {
   border-color: rgba(0, 22, 22, 0.4);
 }
 
+nav {
+  background-color: gray;
+}
+
 header {
   color: black;
   margin: 10px;
   text-align: center;
   font-size: 1.8em;
   font-weight: thin;
+}
+
+.banner {
+  background: lightgray;
+}
+
+.prime {
+  color: white;
+}
+
+#Guide h1 {
+  margin: 0;
+}
+
+h3 a {
+  color: gray;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  color: black;
 }
 
 #main-doc header {
@@ -39,7 +64,8 @@ header {
 }
 
 #navbar li {
-  color: #4d4e53;
+  color: white;
+  font-weight: bold;
   border-top: 1px solid;
   list-style: none;
   position: relative;
@@ -49,9 +75,15 @@ header {
 #navbar a {
   display: block;
   padding: 10px 30px;
-  color: #4d4e53;
+  color: white;
   text-decoration: none;
   cursor: pointer;
+}
+
+#navbar li a:hover,
+#navbar header a:hover {
+  color: gray;
+  background: white;
 }
 
 #main-doc {
